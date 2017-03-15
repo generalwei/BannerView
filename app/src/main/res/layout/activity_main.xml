@@ -19,12 +19,19 @@
             <com.general.imagebannerview.ImageBannerFrameLayout
                 android:id="@+id/bf"
                 android:layout_width="match_parent"
-                android:layout_height="200dp" />
+                android:layout_height="200dp"
+                android:visibility="gone"/>
 
             <com.general.imagebannerview.TextBannerView
                 android:id="@+id/tbv"
                 android:layout_width="match_parent"
-                android:layout_height="20dp" />
+                android:layout_height="20dp"
+                android:visibility="gone"/>
+
+            <com.general.imagebannerview.SearlCurvePath
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
         </LinearLayout>
     </RelativeLayout>
 

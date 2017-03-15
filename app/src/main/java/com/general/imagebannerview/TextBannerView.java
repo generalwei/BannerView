@@ -90,8 +90,6 @@ public class TextBannerView extends ViewGroup {
         } else {
             //测量子视图的高贺宽
             measureChildren(widthMeasureSpec, heightMeasureSpec);
-            Log.d("text childrenCount", children + "," + widthMeasureSpec + "," + heightMeasureSpec + "," + getWidth() + "," + getHeight());
-
             View view = getChildAt(0);
             childHeight = view.getMeasuredHeight();
             childWidth = view.getMeasuredWidth();
@@ -126,7 +124,9 @@ public class TextBannerView extends ViewGroup {
     public boolean onTouchEvent(MotionEvent event) {
         switch (event.getAction()) {
             case MotionEvent.ACTION_UP:
-                clickIndexOfBanner.onClickBanner(index, getChildAt(index));
+                if (clickIndexOfBanner != null) {
+                    clickIndexOfBanner.onClickBanner(index, getChildAt(index));
+                }
                 break;
         }
         return true;
