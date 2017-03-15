@@ -218,7 +218,6 @@ public class ImageBannerView extends ViewGroup {
                 break;
             case MotionEvent.ACTION_UP:
                 int scrollX = getScrollX();
-                Log.d("scrollX", scrollX + "");
                 index = (scrollX + childWidth / 2) / childWidth;
                 if (index < 0) {
                     index = 0;
@@ -262,4 +261,8 @@ public class ImageBannerView extends ViewGroup {
 
     }
 
+    @Override
+    protected void onScrollChanged(int l, int t, int oldl, int oldt) {
+        super.onScrollChanged(l, t, oldl, oldt);
+    }
 }
