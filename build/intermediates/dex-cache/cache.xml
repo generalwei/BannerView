@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/zhouwei/work/workspace/android project/image_banner_view/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/zhouwei/work/workspace/android project/image_banner_view/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_eefd6f6666a6ef58a7deaeaa1a7088b7a03f9500/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhouwei/work/workspace/android project/image_banner_view/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93876320a89b604eb8db52bd20feafcfc9f9dc32">
+        <dex dex="/Users/zhouwei/work/workspace/android project/image_banner_view/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ff2536c4da6126b5659c14ec7f0bb71cd3d5fe3f/classes.dex" />
+    </item>
+
+</items>
